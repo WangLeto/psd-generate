@@ -23,6 +23,17 @@
   box-shadow: 0 0 10px #ccc;
 }
 
+@media (max-width: 768px) {
+  #root {
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+  }
+  .card {
+    padding: 1.5em;
+  }
+}
+
 .card-item {
   margin: 1em 0;
   display: flex;

@@ -19,9 +19,9 @@ function App() {
             type="text"
             value={fixKey}
             onChange={(e) => setFixKey(e.target.value)}
-            placeholder="输入盐"
+            placeholder="输入盐（推荐）"
           />
-          <button onClick={() => writeFixKey(fixKey)}>save</button>
+          <button onClick={() => writeFixKey(fixKey)}>持久化</button>
         </div>
         <div className="card-item">
           <div>长度</div>
@@ -30,6 +30,7 @@ function App() {
             placeholder="输入长度"
             min={6}
             max={14}
+            style={{ width: 80 }}
             value={length}
             onChange={(e) => setLength(Number(e.target.value))}
           />
