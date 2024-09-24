@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.card {
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.card-item {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+input {
+  line-height: 1.5;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
+
+.error {
+  color: #d49591;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.password {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  background-color: rgba(240, 240, 240, 0.5);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.copy {
+  color: #91d4c4;
+  font-size: 0.5em;
+}
